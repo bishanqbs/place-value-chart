@@ -1,0 +1,104 @@
+{
+    "language": "en",
+    "langLabels": {
+        "en": {
+            "title": "Place Value Chart",
+            "mode": {
+                "explore": "Explore Mode",
+                "question": "Equation Mode"
+            },
+            "showstandardform": "Show standard form.",
+            "showexpandedform": "Show expanded form.",
+            "showinchart": "Show in chart.",
+            "check": "Check.",
+            "correct": "Correct!",
+            "tryagain": "Try again.",
+            "rows": "Row",
+            "columns": "column",
+            "chartLabels": {
+                "insTop": "Enter a digit (0-9) for each place value.",
+                "insBottom": "Or, enter the number in standard form. Remember to enter a decimal point if needed.",
+                "heads": {
+                    "thousands": "Thousands",
+                    "ones": "Ones",
+                    "decimals": "Decimals"
+                },
+                "thousands": [ "Thousands", "Ten Thousands", "Hundred Thousands" ],
+                "ones": [ "Ones", "Tens", "Hundreds" ],
+                "decimals": [ "Tenths", "Hundredths", "Thousandths" ]
+            }
+        },
+        "ar": {
+            "title": "أداة المصفوفة",
+            "mode": {
+                "explore": "وضع الاستكشاف",
+                "question": "وضع المعادلة"
+            },
+            "showstandardform": ".عرض النموذج القياسي",
+            "showexpandedform": ".إظهار الشكل الموسع",
+            "showinchart": ".إظهار في الرسم البياني",
+            "check": ".الشيك",
+            "correct": "صيح!",
+            "tryagain": "حاول مرة أخري.",
+            "rows": "Row",
+            "columns": "Column",
+            "chartLabels": {
+                "insTop": "أدخل رقمًا (0-9) لكل قيمة مكانية.",
+                "insBottom": "أو أدخل الرقم في النموذج القياسي. تذكر إدخال فاصلة عشرية إذا لزم الأمر.",
+                "heads": {
+                    "thousands": "بالآلاف",
+                    "ones": "منها",
+                    "decimals": "الكسور العشرية"
+                },
+                "thousands": [ "بالآلاف", "عشرة آلاف", "مائة ألف" ],
+                "ones": [ "منها", "عشرات", "المئات" ],
+                "decimals": [ "أعشار", "المئات", "الآلاف" ]
+            }
+        }
+    },
+    "questionSet" : [
+        {
+            "id": "e_1",
+            "quaudio": "audios/stop_point_1c.mp3",
+            "instruction": "",
+            "pageid": "explore_1",
+            "mode" : "explore",
+            "grade": 3,
+            "showstandardformbtn": true,
+            "showextandedformbtn": true,
+            "showinchartbtn": true,
+            "updateChart": {
+                "thousands": 1,
+                "ones": 3,
+                "decimals": 0
+            },
+            "task": {
+                "hideHeadings": false,
+                "prefill": "",
+                "number": "7,802",
+                "question": {
+                    "en" : "Read the number in standard form.<br>Click to show the number in the chart. <br>Click to show the expanded form.<br><br>Select NEXT when you’re ready to go back to the lesson.",
+                    "ar" : "اقرأ الرقم في النموذج القياسي.<br>انقر لإظهار الرقم في الرسم البياني.<br> انقر لإظهار النموذج الموسع.<br><br>انقر فوق التالي عندما تكون مستعدًا للعودة إلى الدرس."
+                }
+            }
+        }
+    ],
+    "grade": {
+        "3": {
+            "thousands": 0,
+            "ones": 3,
+            "decimals": 0
+        },
+        "4": {
+            "thousands": 3,
+            "ones": 3,
+            "decimals": 0
+        },
+        "5": {
+            "thousands": 3,
+            "ones": 3,
+            "decimals": 3
+        }
+    }
+}
+
